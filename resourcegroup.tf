@@ -13,7 +13,7 @@ provider "azurerm" {
 }
 
 # Create a resource group
-resource "azurerm_resource_group" "onlineresource" {
-  name     = "example-resources"
+resource "azurerm_resource_group" "test" {
+  name     = "test-resources"
   location = "West Europe"
 }
