@@ -1,6 +1,4 @@
-
 terraform {
-  required_version = ">= v1.1.2"
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
@@ -10,12 +8,12 @@ terraform {
 }
 
 # Configure the Microsoft Azure Provider
-provider "azurerm" "test" {
+provider "azurerm" {
   features {}
 }
 
 # Create a resource group
-resource "azurerm_resource_group" "test" {
-  name     = "test-resources"
+resource "azurerm_resource_group" "example" {
+  name     = "example-resources"
   location = "West Europe"
 }
