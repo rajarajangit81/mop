@@ -10,10 +10,10 @@ terraform {
 provider "azurerm" {
   features {}
 
-  subscription_id = "<azure_subscription_id>"
-  tenant_id       = "<azure_subscription_tenant_id>"
-  client_id       = "<service_principal_appid>"
-  client_secret   = "<service_principal_password>"
+  subscription_id = "Free Trial"
+  tenant_id       = "4b5dd814-2758-4f61-b67b-8125caf437fc"
+  client_id       = "39ec3ceb-6677-40a1-9648-0513cedf99a8"
+  client_secret   = "f1fa9441-4df1-467c-be02-0cc81290ba51"
 }
 
 # Create a resource group
